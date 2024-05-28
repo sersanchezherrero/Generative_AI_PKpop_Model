@@ -22,5 +22,5 @@ o	Initial concentration in the peripheral compartment (ug/ml) = 0
 - Initial conditions:  Initial concentration in the central compartment and Initial concentration in the peripheral compartment.
 - Solving the differential equations with ode().
 - Extracting results
-- Plotting concentrations for central and peripheral compartments in the same plot with a legend size of 0.5. Legend position on the upper-right of the graph.
+- Plotting concentrations for central and peripheral compartments in the same plot with a legend size of 1. Legend position on the upper-right of the graph.
 

@@ -1,0 +1,15 @@
+Based on the previous model, I want a simulation with: 
+Initial values:
+•	Vc <- 49.86 # Volume of the central compartment (liters)
+•	Vp <- 33.14 # Volume of the peripheral compartment (liters)
+•	Cl <- 3.51 # Clearance (ml/day)
+•	Vmax <- 0 # Maximum elimination rate (ug/day)
+•	Km <- 5 # Michaelis-Menten constant (ug/ml)
+•	Q <- 50.55 # Flow between compartments (ml/day)
+•	dose <- 10000 # Dose (ug) 
+Initial conditions: 
+•	Cc_init <- dose / Vc # Initial concentration in the central compartment (ug/ml)
+•	Cp_init <- 0 # Initial concentration in the peripheral compartment (ug/ml) 
+And define a periodic dosing event every 7 days, where from the second dose, add the dose to the existing concentrations at that time. I suggest using event_times to indicate the times at which the dose is administered, and events containing information about the dosing events. 
+Then, I want to plot the concentrations obtained in the central and peripheral compartments in the same plot. 
+Finally, I want to filter the data up to day 28 and calculate the area under the curve (AUC) using the trapezoidal rule, which is a measure of the total body exposure to the drug up to that time.

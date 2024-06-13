@@ -1,0 +1,7 @@
+Based on the fact that I have a dataframe named datos created as follows: datos <- read.csv("Results.csv", header = TRUE).
+
+This dataframe is composed of the following columns:
+"ID", "time", "evid", "cmt", "amt", "rate", "mdv", "DV", "IPRED", "PRED", "CL", "V1", "V2", "Q", "ETA1", "ETA2", "ETA3", "ETA4". Each ETA plot filled the shape with different colour and in four different graphs. 
+
+I would like to generate individual density plots for ETA1, ETA2, ETA3, and ETA4.
+Additionally, I want to create a plot with DV (y-axis) versus IPRED (x-axis), including a trend line shaded in gray to indicate the trend. I want this plot to exclude rows with a value of 0. Dots in blue. Line in red and shade in grey.

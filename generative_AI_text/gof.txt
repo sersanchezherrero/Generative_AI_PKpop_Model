@@ -5,3 +5,4 @@ This dataframe is composed of the following columns:
 
 I would like to generate individual density plots for ETA1, ETA2, ETA3, and ETA4.
 Additionally, I want to create a plot with DV (y-axis) versus IPRED (x-axis), including a trend line shaded in gray to indicate the trend. I want this plot to exclude rows with a value of 0. Dots in blue. Line in red and shade in grey.
+I would like to add in the tendency line the adj R2 value, Intercept value, slope value and P value

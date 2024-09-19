@@ -1,0 +1,10 @@
+1. How can I calculate percentiles (5th, 50th, 95th) from my simulation results?
+•	Reason for asking: The code calculates the 5th, 50th, and 95th percentiles of concentration values across all simulations at each time point, summarizing the distribution of results.
+2. How can I calculate the area under the curve (AUC) from the concentration vs. time data?
+•	Reason for asking: The new code calculates the AUC for the percentiles using the trapezoidal rule. AUC is a crucial pharmacokinetic metric to assess drug exposure.
+3. How can I create histograms or density plots for the parameter distributions?
+•	Reason for asking: The new code generates histograms and density plots (with ggplot2) to visualize the distribution of the pharmacokinetic parameters. This helps in understanding the variability in the simulated population.
+4. How can I add text annotations to a plot to display calculated values like AUC?
+•	Reason for asking: The new code adds AUC values directly to the plot using text(), which allows you to present important metrics within the plot itself.
+5. How can I adjust the tolerance settings in the ode function for more precise solutions?
+•	Reason for asking: The code increases the accuracy of the ode function by setting rtol = 1e-6 and atol = 1e-6, which helps in obtaining more precise solutions for the differential equations.

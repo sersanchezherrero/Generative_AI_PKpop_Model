@@ -1,0 +1,19 @@
+1. How can I perform a Monte Carlo simulation with variability in the parameters?
+•	Reason for asking: The new code introduces a Monte Carlo simulation for 1000 patients, generating random values for pharmacokinetic parameters (Cl, Q, Vc, Vp) to reflect interindividual variability. This is key for simulating different patient responses.
+2. How can I generate random parameter values with specific means and standard deviations?
+•	Reason for asking: The new code uses normal distributions (rnorm) to generate random samples for Cl, Q, Vc, and Vp. Asking this will help you learn how to incorporate variability into the model parameters.
+3. How can I integrate and visualize experimental data alongside my simulation?
+•	Reason for asking: The new code loads additional experimental data from a CSV file and overlays it on the simulation plot. This allows you to compare the simulated data with real-world observations.
+4. How can I plot multiple simulations on a single graph with transparency?
+•	Reason for asking: In the new code, concentration curves for 1000 patients are plotted with semi-transparent lines (rgb(0, 0, 1, 0.1)), which makes it easier to visualize variability without overwhelming the plot.
+5. How can I calculate percentiles (5th, 50th, 95th) from my simulation results?
+•	Reason for asking: The code calculates the 5th, 50th, and 95th percentiles of concentration values across all simulations at each time point, summarizing the distribution of results.
+6. How can I calculate the area under the curve (AUC) from the concentration vs. time data?
+•	Reason for asking: The new code calculates the AUC for the percentiles using the trapezoidal rule. AUC is a crucial pharmacokinetic metric to assess drug exposure.
+7. How can I create histograms or density plots for the parameter distributions?
+•	Reason for asking: The new code generates histograms and density plots (with ggplot2) to visualize the distribution of the pharmacokinetic parameters. This helps in understanding the variability in the simulated population.
+8. How can I add text annotations to a plot to display calculated values like AUC?
+•	Reason for asking: The new code adds AUC values directly to the plot using text(), which allows you to present important metrics within the plot itself.
+9. How can I adjust the tolerance settings in the ode function for more precise solutions?
+•	Reason for asking: The code increases the accuracy of the ode function by setting rtol = 1e-6 and atol = 1e-6, which helps in obtaining more precise solutions for the differential equations.
+

@@ -9,8 +9,7 @@
 ### 4. Step 4: Project PK for an alternate dosing regimen and explore potential PK variability based on the Two-Compartment Model in R Studio Using Generative Model  
 ### 5. Step 5: Visual Predicted Check based on the Two-Compartment Model in R Studio Using Generative Model 
 ### 6. Step 6: Parameter Distribution Profiles based on the Two-Compartment Model in R Studio Using Generative Model  
-### 7. Step 7: Assessment Predictions based on the Two-Compartment Model in R Studio Using Generative Model 
-### 8. Step 8: Goodness-of-Fit based on the Two-Compartment Model in R Studio Using Generative Model 
+### 7. Step 7: Goodness-of-Fit based on the Two-Compartment Model in R Studio Using Generative Model 
 
 # Content
 
@@ -118,12 +117,7 @@ The same code and asking text were adapted by AI generative models using the Shi
 5. How can I adjust the tolerance settings in the ode function for more precise solutions?
 •	Reason for asking: The code increases the accuracy of the ode function by setting rtol = 1e-6 and atol = 1e-6, which helps in obtaining more precise solutions for the differential equations.
 
-## 7. Step 7: Assessment Predictions based on the Two-Compartment Model in R Studio Using Generative Model 
-The same code and asking text were adapted by AI generative models using the Shiny package to create a user interface. 
-
-### Text:
-
-## 8. Step 8: Goodness-of-Fit based on the Two-Compartment Model in R Studio Using Generative Model 
+## 7. Step 7: Goodness-of-Fit based on the Two-Compartment Model in R Studio Using Generative Model 
 Based on Resutls.csv obtained from step 3, following the text below could be obtainded Goodness-of-Fit plot. 
 
 ### Text:

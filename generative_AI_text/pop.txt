@@ -1,0 +1,7 @@
+"Please modify the initial code to:
+1.	Update the PK model to include non-linear elimination using a Michaelis-Menten equation. Change the parameters as follows: set TVCL to 7, TVV1 to 40, TVV2 to 30, TVQ to 50, Vmax to 0.0, and Km to 0.005.
+2.	Read data from a file called "Hosseini_et_al_2018.txt". Use this data for the parameter estimation instead of the manually defined dataset.
+3.	After performing Bayesian parameter estimation, capture and print the individual parameter estimates (CL, V1, V2, Q), their covariances, and the posterior distributions.
+4.	Save the estimation results to a CSV file called "Results.csv".
+5.	Include visualizations such as observed vs predicted concentration plots and allow for simulating different dosing regimens based on posterior parameter distributions."
+6.	Eliminated BW. I do not need it.

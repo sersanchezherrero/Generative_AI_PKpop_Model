@@ -1,4 +1,4 @@
-# Assessing the Potential of Generative AI Models as Tools to Assist Experts in the Development of Pharmacokinetic Models in R Studio
+# Assessing the Potential of Generative AI Models as Tools to Assist Experts in the Development of Pharmacokinetic Models
 ·	This repository has been created to showcase the results of the development of a Two-Compartment Antibody Population PK Single-Dose Intra-Venous model with Generative Artificial Intelligence. Different Generative Artificial Intelligence models have been used to validate a Two-Compartment Antibody Population PK Single-Dose Intra-Venous model. Real data comes from Hosseini et al 2018.
 
 # Index

@@ -43,7 +43,7 @@ o	Initial concentration in the peripheral compartment (ug/ml) = 0
 - Solving the differential equations with ode().
 - Extracting results
 - Plotting concentrations for central and peripheral compartments in the same plot with a legend size of 1. Legend position on the upper-right of the graph.
-
+  
 ## 2. Step 2: Shiny application based on the Two-Compartment Model in R Studio Using Generative Model
 The same code and asking text were adapted by AI generative models using the Shiny package to create a user interface. 
 
